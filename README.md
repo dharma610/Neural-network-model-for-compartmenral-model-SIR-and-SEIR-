@@ -1,4 +1,5 @@
 # Neural Network models for SIR and SEIR models 
+Guide: Dr. Adway mitra (Assistant Professor, Centre of Excellence in Artificial Intelligence, IIT Kharagpur)
   Generated data of susceptible, infected, recovered cases using the **SIR** model for 100 days for 1000 different sets of parameters (beta
   and gamma) by using suitable initial conditions.
  Trained **Neural network model** using Keras to predict susceptible, infected, and recovered data for the next day using values of the previous day [click here to see the notebook](https://github.com/dharma610/Project/blob/master/part1_without_beta.ipynb). Notice the changes when we did the same think but using parameters as one of the feature [click here to see the notebook](https://github.com/dharma610/Project/blob/master/part2_including_beta.ipynb). Got validation accuracy of 0.98937 and test accuracy of 0.9880 for the model
